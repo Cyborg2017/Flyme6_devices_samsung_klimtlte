@@ -86,7 +86,7 @@ vendor_modify_jars := framework services telephony-common wifi-service org.cyano
 # The default value is nothing.
 # You can configure the board system file path which relative to the system directory in the board release.
 #-----------------------------------------------------------------------------
-#board_saved_files :=
+board_saved_files :=　bin/bootanimation bin/shutdownanimation media/bootanimation.zip
 
 ##############################################################################
 # The value decides which board system apk you want to remove.
